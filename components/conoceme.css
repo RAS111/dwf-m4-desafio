@@ -1,0 +1,58 @@
+.about-me {
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+.about-me__container {
+    margin: 0;
+    padding: 0;
+}
+
+.about-me__img {
+    width: 380px;
+    height: 480px;
+    display:none;
+}
+
+.container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 31px;
+    gap: 46px;
+}
+
+.info {
+    margin: 0;
+}
+
+.info__description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (min-width: 768px) {
+    .about-me {
+        background-color: #FFFFFF;
+        padding: 58px 80px 0px 0px;
+    }
+
+    .about-me__container {
+        display: flex;
+    }
+
+    .container__info {
+        align-items: flex-start;
+        color: #000000;
+    }
+
+    .about-me__img {
+        display: inline;
+        width: 380px;
+        height: 480px;
+    }
+}

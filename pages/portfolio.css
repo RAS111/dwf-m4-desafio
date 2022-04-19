@@ -1,0 +1,114 @@
+main {
+    background-color: #141414;;
+    color: #FFFFFF;
+}
+
+.portfolio__header {
+    padding: 104px 31px;
+    text-align: center;
+}
+
+.portfolio__header-title {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.portfolio__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: 56px;
+    display: none;
+}
+
+.portfolio__results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+    padding-bottom: 38px;
+}
+
+
+
+.container__things{
+    width: 290px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0; 
+    margin-top: 15px;
+}
+
+.things__description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.things__link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FC6F50;
+    text-decoration: none;
+}
+
+.things__img {
+    width: 290px;
+    height: 173px;
+}
+
+@media (min-width: 768px) {
+    .portfolio__header {
+        text-align: left;
+        padding: 200px 35px;
+        background: linear-gradient(107.17deg, #958C40 29.35%, rgba(156, 0, 210, 0.8) 78.73%);
+    }
+    
+    .portfolio__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+
+    .container__also-more-things {
+        margin: 0;
+    }
+
+    .things__img {
+        width: 290px;
+        height: 173px;
+    }
+
+    .portfolio__results {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+}
